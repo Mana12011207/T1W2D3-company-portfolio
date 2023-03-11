@@ -1,32 +1,41 @@
-header {
-  background-color: #ffb6b6;
-}
-
 body {
   margin: 0;
   background-color: #5a5a5a;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body header {
+  background-color: #ffb6b6;
   padding: 16px;
   text-align: center;
 }
-body .logo-name {
+body header .logo-name {
   margin-bottom: 24pxs;
 }
-body .logo-name .name {
+body header .logo-name .name {
   font-size: 28px;
 }
-body .logo-name .name .coder-text {
+body header .logo-name .name .coder-text {
   color: #45A7c5;
 }
-body .logo-name .name .academy-text {
+body header .logo-name .name .academy-text {
   color: #1C3c5c;
 }
-body .nav-items {
+body header .nav-items {
   width: 100%;
   display: flex;
   justify-content: space-around;
   font-size: 18px;
 }
-body .nav-items a {
+body header .nav-items a {
   text-decoration: none;
   color: #0b6581;
+}
+
+footer {
+  display: flex;
+  padding: 16px;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
