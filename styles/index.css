@@ -1,0 +1,32 @@
+header {
+  background-color: #ffb6b6;
+}
+
+body {
+  margin: 0;
+  background-color: #5a5a5a;
+  padding: 16px;
+  text-align: center;
+}
+body .logo-name {
+  margin-bottom: 24pxs;
+}
+body .logo-name .name {
+  font-size: 28px;
+}
+body .logo-name .name .coder-text {
+  color: #45A7c5;
+}
+body .logo-name .name .academy-text {
+  color: #1C3c5c;
+}
+body .nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+body .nav-items a {
+  text-decoration: none;
+  color: #0b6581;
+}/*# sourceMappingURL=index.css.map */
